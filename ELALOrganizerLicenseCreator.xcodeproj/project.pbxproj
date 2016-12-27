@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A54AD4921CD62A2D00B976C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A54AD4911CD62A2D00B976C7 /* Images.xcassets */; };
+		A5CCAE8318CB46F10051F911 /* helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = A5CCAE8218CB46F10051F911 /* helpers.m */; };
+		A5CCAEA118CB47420051F911 /* blackButton.png in Resources */ = {isa = PBXBuildFile; fileRef = A5CCAE8418CB47410051F911 /* blackButton.png */; };
+		A5CCAEA218CB47420051F911 /* blackButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5CCAE8518CB47410051F911 /* blackButton@2x.png */; };
+		A5CCAEA318CB47420051F911 /* blackButtonHighlight.png in Resources */ = {isa = PBXBuildFile; fileRef = A5CCAE8618CB47410051F911 /* blackButtonHighlight.png */; };
+		A5CCAEA418CB47420051F911 /* blackButtonHighlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5CCAE8718CB47410051F911 /* blackButtonHighlight@2x.png */; };
+		A5CCAEA518CB47420051F911 /* blueButton.png in Resources */ = {isa = PBXBuildFile; fileRef = A5CCAE8818CB47410051F911 /* blueButton.png */; };
+		A5CCAEA618CB47420051F911 /* blueButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5CCAE8918CB47410051F911 /* blueButton@2x.png */; };
+		A5CCAEA718CB47420051F911 /* blueButtonHighlight.png in Resources */ = {isa = PBXBuildFile; fileRef = A5CCAE8A18CB47410051F911 /* blueButtonHighlight.png */; };
+		A5CCAEA818CB47420051F911 /* blueButtonHighlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5CCAE8B18CB47410051F911 /* blueButtonHighlight@2x.png */; };
+		A5CCAEA918CB47420051F911 /* greenButton.png in Resources */ = {isa = PBXBuildFile; fileRef = A5CCAE8C18CB47410051F911 /* greenButton.png */; };
+		A5CCAEAA18CB47420051F911 /* greenButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5CCAE8D18CB47410051F911 /* greenButton@2x.png */; };
+		A5CCAEAB18CB47420051F911 /* greenButtonHighlight.png in Resources */ = {isa = PBXBuildFile; fileRef = A5CCAE8E18CB47410051F911 /* greenButtonHighlight.png */; };
+		A5CCAEAC18CB47420051F911 /* greenButtonHighlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5CCAE8F18CB47410051F911 /* greenButtonHighlight@2x.png */; };
+		A5CCAEAD18CB47420051F911 /* greyButton.png in Resources */ = {isa = PBXBuildFile; fileRef = A5CCAE9018CB47410051F911 /* greyButton.png */; };
+		A5CCAEAE18CB47420051F911 /* greyButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5CCAE9118CB47420051F911 /* greyButton@2x.png */; };
+		A5CCAEAF18CB47420051F911 /* greyButton@2xpng in Resources */ = {isa = PBXBuildFile; fileRef = A5CCAE9218CB47420051F911 /* greyButton@2xpng */; };
+		A5CCAEB018CB47420051F911 /* greyButtonHighlight.png in Resources */ = {isa = PBXBuildFile; fileRef = A5CCAE9318CB47420051F911 /* greyButtonHighlight.png */; };
+		A5CCAEB118CB47420051F911 /* greyButtonHighlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5CCAE9418CB47420051F911 /* greyButtonHighlight@2x.png */; };
+		A5CCAEB218CB47420051F911 /* orangeButton.png in Resources */ = {isa = PBXBuildFile; fileRef = A5CCAE9518CB47420051F911 /* orangeButton.png */; };
+		A5CCAEB318CB47420051F911 /* orangeButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5CCAE9618CB47420051F911 /* orangeButton@2x.png */; };
+		A5CCAEB418CB47420051F911 /* orangeButtonHighlight.png in Resources */ = {isa = PBXBuildFile; fileRef = A5CCAE9718CB47420051F911 /* orangeButtonHighlight.png */; };
+		A5CCAEB518CB47420051F911 /* orangeButtonHighlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5CCAE9818CB47420051F911 /* orangeButtonHighlight@2x.png */; };
+		A5CCAEB618CB47420051F911 /* tanButton.png in Resources */ = {isa = PBXBuildFile; fileRef = A5CCAE9918CB47420051F911 /* tanButton.png */; };
+		A5CCAEB718CB47420051F911 /* tanButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5CCAE9A18CB47420051F911 /* tanButton@2x.png */; };
+		A5CCAEB818CB47420051F911 /* tanButtonHighlight.png in Resources */ = {isa = PBXBuildFile; fileRef = A5CCAE9B18CB47420051F911 /* tanButtonHighlight.png */; };
+		A5CCAEB918CB47420051F911 /* tanButtonHighlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5CCAE9C18CB47420051F911 /* tanButtonHighlight@2x.png */; };
+		A5CCAEBA18CB47420051F911 /* whiteButton.png in Resources */ = {isa = PBXBuildFile; fileRef = A5CCAE9D18CB47420051F911 /* whiteButton.png */; };
+		A5CCAEBB18CB47420051F911 /* whiteButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5CCAE9E18CB47420051F911 /* whiteButton@2x.png */; };
+		A5CCAEBC18CB47420051F911 /* whiteButtonHighlight.png in Resources */ = {isa = PBXBuildFile; fileRef = A5CCAE9F18CB47420051F911 /* whiteButtonHighlight.png */; };
+		A5CCAEBD18CB47420051F911 /* whiteButtonHighlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5CCAEA018CB47420051F911 /* whiteButtonHighlight@2x.png */; };
+		A5CCAEBF18CB67E10051F911 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5CCAEBE18CB67E10051F911 /* MessageUI.framework */; };
+		A5CCAEC318CB6DDA0051F911 /* ELALOrganizerLicenseCreator72.png in Resources */ = {isa = PBXBuildFile; fileRef = A5CCAEC218CB6DDA0051F911 /* ELALOrganizerLicenseCreator72.png */; };
+		A5F0E64817A7FCE100030DF4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5F0E64717A7FCE100030DF4 /* UIKit.framework */; };
+		A5F0E64A17A7FCE100030DF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5F0E64917A7FCE100030DF4 /* Foundation.framework */; };
+		A5F0E64C17A7FCE100030DF4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5F0E64B17A7FCE100030DF4 /* CoreGraphics.framework */; };
+		A5F0E65217A7FCE100030DF4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A5F0E65017A7FCE100030DF4 /* InfoPlist.strings */; };
+		A5F0E65417A7FCE100030DF4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F0E65317A7FCE100030DF4 /* main.m */; };
+		A5F0E65817A7FCE100030DF4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F0E65717A7FCE100030DF4 /* AppDelegate.m */; };
+		A5F0E65A17A7FCE100030DF4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A5F0E65917A7FCE100030DF4 /* Default.png */; };
+		A5F0E65C17A7FCE100030DF4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5F0E65B17A7FCE100030DF4 /* Default@2x.png */; };
+		A5F0E65E17A7FCE100030DF4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5F0E65D17A7FCE100030DF4 /* Default-568h@2x.png */; };
+		A5F0E66117A7FCE100030DF4 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5F0E65F17A7FCE100030DF4 /* MainStoryboard.storyboard */; };
+		A5F0E66417A7FCE100030DF4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F0E66317A7FCE100030DF4 /* ViewController.m */; };
+		A5F0E66C17A7FDC800030DF4 /* LicenseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F0E66B17A7FDC800030DF4 /* LicenseManager.m */; };
+		A5F0E66F17A7FDEC00030DF4 /* LicenseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F0E66E17A7FDEC00030DF4 /* LicenseViewController.m */; };
+		A5F0E67417A7FE4200030DF4 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F0E67117A7FE4200030DF4 /* NSData+Base64.m */; };
+		A5F0E67517A7FE4200030DF4 /* StringEncryption.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F0E67217A7FE4200030DF4 /* StringEncryption.m */; };
+		A5F0E67917A7FE8F00030DF4 /* NSDate-Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F0E67817A7FE8F00030DF4 /* NSDate-Utilities.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A54AD4911CD62A2D00B976C7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A5CCAE8118CB46E20051F911 /* helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = helpers.h; sourceTree = "<group>"; };
+		A5CCAE8218CB46F10051F911 /* helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = helpers.m; sourceTree = "<group>"; };
+		A5CCAE8418CB47410051F911 /* blackButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackButton.png; sourceTree = "<group>"; };
+		A5CCAE8518CB47410051F911 /* blackButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blackButton@2x.png"; sourceTree = "<group>"; };
+		A5CCAE8618CB47410051F911 /* blackButtonHighlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackButtonHighlight.png; sourceTree = "<group>"; };
+		A5CCAE8718CB47410051F911 /* blackButtonHighlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blackButtonHighlight@2x.png"; sourceTree = "<group>"; };
+		A5CCAE8818CB47410051F911 /* blueButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueButton.png; sourceTree = "<group>"; };
+		A5CCAE8918CB47410051F911 /* blueButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blueButton@2x.png"; sourceTree = "<group>"; };
+		A5CCAE8A18CB47410051F911 /* blueButtonHighlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueButtonHighlight.png; sourceTree = "<group>"; };
+		A5CCAE8B18CB47410051F911 /* blueButtonHighlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blueButtonHighlight@2x.png"; sourceTree = "<group>"; };
+		A5CCAE8C18CB47410051F911 /* greenButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greenButton.png; sourceTree = "<group>"; };
+		A5CCAE8D18CB47410051F911 /* greenButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "greenButton@2x.png"; sourceTree = "<group>"; };
+		A5CCAE8E18CB47410051F911 /* greenButtonHighlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greenButtonHighlight.png; sourceTree = "<group>"; };
+		A5CCAE8F18CB47410051F911 /* greenButtonHighlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "greenButtonHighlight@2x.png"; sourceTree = "<group>"; };
+		A5CCAE9018CB47410051F911 /* greyButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greyButton.png; sourceTree = "<group>"; };
+		A5CCAE9118CB47420051F911 /* greyButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "greyButton@2x.png"; sourceTree = "<group>"; };
+		A5CCAE9218CB47420051F911 /* greyButton@2xpng */ = {isa = PBXFileReference; lastKnownFileType = file; path = "greyButton@2xpng"; sourceTree = "<group>"; };
+		A5CCAE9318CB47420051F911 /* greyButtonHighlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greyButtonHighlight.png; sourceTree = "<group>"; };
+		A5CCAE9418CB47420051F911 /* greyButtonHighlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "greyButtonHighlight@2x.png"; sourceTree = "<group>"; };
+		A5CCAE9518CB47420051F911 /* orangeButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orangeButton.png; sourceTree = "<group>"; };
+		A5CCAE9618CB47420051F911 /* orangeButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "orangeButton@2x.png"; sourceTree = "<group>"; };
+		A5CCAE9718CB47420051F911 /* orangeButtonHighlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orangeButtonHighlight.png; sourceTree = "<group>"; };
+		A5CCAE9818CB47420051F911 /* orangeButtonHighlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "orangeButtonHighlight@2x.png"; sourceTree = "<group>"; };
+		A5CCAE9918CB47420051F911 /* tanButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tanButton.png; sourceTree = "<group>"; };
+		A5CCAE9A18CB47420051F911 /* tanButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tanButton@2x.png"; sourceTree = "<group>"; };
+		A5CCAE9B18CB47420051F911 /* tanButtonHighlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tanButtonHighlight.png; sourceTree = "<group>"; };
+		A5CCAE9C18CB47420051F911 /* tanButtonHighlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tanButtonHighlight@2x.png"; sourceTree = "<group>"; };
+		A5CCAE9D18CB47420051F911 /* whiteButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteButton.png; sourceTree = "<group>"; };
+		A5CCAE9E18CB47420051F911 /* whiteButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whiteButton@2x.png"; sourceTree = "<group>"; };
+		A5CCAE9F18CB47420051F911 /* whiteButtonHighlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteButtonHighlight.png; sourceTree = "<group>"; };
+		A5CCAEA018CB47420051F911 /* whiteButtonHighlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whiteButtonHighlight@2x.png"; sourceTree = "<group>"; };
+		A5CCAEBE18CB67E10051F911 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		A5CCAEC218CB6DDA0051F911 /* ELALOrganizerLicenseCreator72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ELALOrganizerLicenseCreator72.png; sourceTree = "<group>"; };
+		A5F0E64417A7FCE100030DF4 /* ELALOrganizerLicenseCreator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ELALOrganizerLicenseCreator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5F0E64717A7FCE100030DF4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A5F0E64917A7FCE100030DF4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A5F0E64B17A7FCE100030DF4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A5F0E64F17A7FCE100030DF4 /* ELALOrganizerLicenseCreator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ELALOrganizerLicenseCreator-Info.plist"; sourceTree = "<group>"; };
+		A5F0E65117A7FCE100030DF4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A5F0E65317A7FCE100030DF4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A5F0E65517A7FCE100030DF4 /* ELALOrganizerLicenseCreator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ELALOrganizerLicenseCreator-Prefix.pch"; sourceTree = "<group>"; };
+		A5F0E65617A7FCE100030DF4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A5F0E65717A7FCE100030DF4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A5F0E65917A7FCE100030DF4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A5F0E65B17A7FCE100030DF4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A5F0E65D17A7FCE100030DF4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A5F0E66017A7FCE100030DF4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		A5F0E66217A7FCE100030DF4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A5F0E66317A7FCE100030DF4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A5F0E66A17A7FDC800030DF4 /* LicenseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LicenseManager.h; sourceTree = "<group>"; };
+		A5F0E66B17A7FDC800030DF4 /* LicenseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LicenseManager.m; sourceTree = "<group>"; };
+		A5F0E66D17A7FDEC00030DF4 /* LicenseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LicenseViewController.h; sourceTree = "<group>"; };
+		A5F0E66E17A7FDEC00030DF4 /* LicenseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LicenseViewController.m; sourceTree = "<group>"; };
+		A5F0E67017A7FE4200030DF4 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		A5F0E67117A7FE4200030DF4 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		A5F0E67217A7FE4200030DF4 /* StringEncryption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringEncryption.m; sourceTree = "<group>"; };
+		A5F0E67317A7FE4200030DF4 /* StringEncryption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringEncryption.h; sourceTree = "<group>"; };
+		A5F0E67617A7FE6100030DF4 /* GlobalConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalConst.h; sourceTree = "<group>"; };
+		A5F0E67717A7FE8F00030DF4 /* NSDate-Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate-Utilities.h"; sourceTree = "<group>"; };
+		A5F0E67817A7FE8F00030DF4 /* NSDate-Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate-Utilities.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5F0E64117A7FCE100030DF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5CCAEBF18CB67E10051F911 /* MessageUI.framework in Frameworks */,
+				A5F0E64817A7FCE100030DF4 /* UIKit.framework in Frameworks */,
+				A5F0E64A17A7FCE100030DF4 /* Foundation.framework in Frameworks */,
+				A5F0E64C17A7FCE100030DF4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5CCAEC018CB69120051F911 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A5CCAEC218CB6DDA0051F911 /* ELALOrganizerLicenseCreator72.png */,
+				A5CCAE8418CB47410051F911 /* blackButton.png */,
+				A5CCAE8518CB47410051F911 /* blackButton@2x.png */,
+				A5CCAE8618CB47410051F911 /* blackButtonHighlight.png */,
+				A5CCAE8718CB47410051F911 /* blackButtonHighlight@2x.png */,
+				A5CCAE8818CB47410051F911 /* blueButton.png */,
+				A5CCAE8918CB47410051F911 /* blueButton@2x.png */,
+				A5CCAE8A18CB47410051F911 /* blueButtonHighlight.png */,
+				A5CCAE8B18CB47410051F911 /* blueButtonHighlight@2x.png */,
+				A5CCAE8C18CB47410051F911 /* greenButton.png */,
+				A5CCAE8D18CB47410051F911 /* greenButton@2x.png */,
+				A5CCAE8E18CB47410051F911 /* greenButtonHighlight.png */,
+				A5CCAE8F18CB47410051F911 /* greenButtonHighlight@2x.png */,
+				A5CCAE9018CB47410051F911 /* greyButton.png */,
+				A5CCAE9118CB47420051F911 /* greyButton@2x.png */,
+				A5CCAE9218CB47420051F911 /* greyButton@2xpng */,
+				A5CCAE9318CB47420051F911 /* greyButtonHighlight.png */,
+				A5CCAE9418CB47420051F911 /* greyButtonHighlight@2x.png */,
+				A5CCAE9518CB47420051F911 /* orangeButton.png */,
+				A5CCAE9618CB47420051F911 /* orangeButton@2x.png */,
+				A5CCAE9718CB47420051F911 /* orangeButtonHighlight.png */,
+				A5CCAE9818CB47420051F911 /* orangeButtonHighlight@2x.png */,
+				A5CCAE9918CB47420051F911 /* tanButton.png */,
+				A5CCAE9A18CB47420051F911 /* tanButton@2x.png */,
+				A5CCAE9B18CB47420051F911 /* tanButtonHighlight.png */,
+				A5CCAE9C18CB47420051F911 /* tanButtonHighlight@2x.png */,
+				A5CCAE9D18CB47420051F911 /* whiteButton.png */,
+				A5CCAE9E18CB47420051F911 /* whiteButton@2x.png */,
+				A5CCAE9F18CB47420051F911 /* whiteButtonHighlight.png */,
+				A5CCAEA018CB47420051F911 /* whiteButtonHighlight@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A5F0E63B17A7FCE100030DF4 = {
+			isa = PBXGroup;
+			children = (
+				A5F0E64D17A7FCE100030DF4 /* ELALOrganizerLicenseCreator */,
+				A5F0E64617A7FCE100030DF4 /* Frameworks */,
+				A5F0E64517A7FCE100030DF4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5F0E64517A7FCE100030DF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5F0E64417A7FCE100030DF4 /* ELALOrganizerLicenseCreator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5F0E64617A7FCE100030DF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5CCAEBE18CB67E10051F911 /* MessageUI.framework */,
+				A5F0E64717A7FCE100030DF4 /* UIKit.framework */,
+				A5F0E64917A7FCE100030DF4 /* Foundation.framework */,
+				A5F0E64B17A7FCE100030DF4 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A5F0E64D17A7FCE100030DF4 /* ELALOrganizerLicenseCreator */ = {
+			isa = PBXGroup;
+			children = (
+				A5F0E67717A7FE8F00030DF4 /* NSDate-Utilities.h */,
+				A5F0E67817A7FE8F00030DF4 /* NSDate-Utilities.m */,
+				A5F0E67617A7FE6100030DF4 /* GlobalConst.h */,
+				A5F0E67017A7FE4200030DF4 /* NSData+Base64.h */,
+				A5F0E67117A7FE4200030DF4 /* NSData+Base64.m */,
+				A5F0E67217A7FE4200030DF4 /* StringEncryption.m */,
+				A5F0E67317A7FE4200030DF4 /* StringEncryption.h */,
+				A5F0E66D17A7FDEC00030DF4 /* LicenseViewController.h */,
+				A5F0E66E17A7FDEC00030DF4 /* LicenseViewController.m */,
+				A5F0E66A17A7FDC800030DF4 /* LicenseManager.h */,
+				A5F0E66B17A7FDC800030DF4 /* LicenseManager.m */,
+				A5F0E65617A7FCE100030DF4 /* AppDelegate.h */,
+				A5F0E65717A7FCE100030DF4 /* AppDelegate.m */,
+				A5F0E65F17A7FCE100030DF4 /* MainStoryboard.storyboard */,
+				A5F0E66217A7FCE100030DF4 /* ViewController.h */,
+				A5F0E66317A7FCE100030DF4 /* ViewController.m */,
+				A5CCAE8118CB46E20051F911 /* helpers.h */,
+				A5CCAE8218CB46F10051F911 /* helpers.m */,
+				A5CCAEC018CB69120051F911 /* Resources */,
+				A54AD4911CD62A2D00B976C7 /* Images.xcassets */,
+				A5F0E64E17A7FCE100030DF4 /* Supporting Files */,
+			);
+			path = ELALOrganizerLicenseCreator;
+			sourceTree = "<group>";
+		};
+		A5F0E64E17A7FCE100030DF4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5F0E64F17A7FCE100030DF4 /* ELALOrganizerLicenseCreator-Info.plist */,
+				A5F0E65017A7FCE100030DF4 /* InfoPlist.strings */,
+				A5F0E65317A7FCE100030DF4 /* main.m */,
+				A5F0E65517A7FCE100030DF4 /* ELALOrganizerLicenseCreator-Prefix.pch */,
+				A5F0E65917A7FCE100030DF4 /* Default.png */,
+				A5F0E65B17A7FCE100030DF4 /* Default@2x.png */,
+				A5F0E65D17A7FCE100030DF4 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5F0E64317A7FCE100030DF4 /* ELALOrganizerLicenseCreator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5F0E66717A7FCE100030DF4 /* Build configuration list for PBXNativeTarget "ELALOrganizerLicenseCreator" */;
+			buildPhases = (
+				A5F0E64017A7FCE100030DF4 /* Sources */,
+				A5F0E64117A7FCE100030DF4 /* Frameworks */,
+				A5F0E64217A7FCE100030DF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ELALOrganizerLicenseCreator;
+			productName = ELALOrganizerLicenseCreator;
+			productReference = A5F0E64417A7FCE100030DF4 /* ELALOrganizerLicenseCreator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5F0E63C17A7FCE100030DF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Ziv Levy";
+				TargetAttributes = {
+					A5F0E64317A7FCE100030DF4 = {
+						DevelopmentTeam = 8M68CMYFST;
+					};
+				};
+			};
+			buildConfigurationList = A5F0E63F17A7FCE100030DF4 /* Build configuration list for PBXProject "ELALOrganizerLicenseCreator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A5F0E63B17A7FCE100030DF4;
+			productRefGroup = A5F0E64517A7FCE100030DF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5F0E64317A7FCE100030DF4 /* ELALOrganizerLicenseCreator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5F0E64217A7FCE100030DF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5CCAEB718CB47420051F911 /* tanButton@2x.png in Resources */,
+				A5CCAEBA18CB47420051F911 /* whiteButton.png in Resources */,
+				A5CCAEB318CB47420051F911 /* orangeButton@2x.png in Resources */,
+				A5CCAEAB18CB47420051F911 /* greenButtonHighlight.png in Resources */,
+				A5CCAEB218CB47420051F911 /* orangeButton.png in Resources */,
+				A5CCAEB818CB47420051F911 /* tanButtonHighlight.png in Resources */,
+				A5CCAEB918CB47420051F911 /* tanButtonHighlight@2x.png in Resources */,
+				A5F0E65217A7FCE100030DF4 /* InfoPlist.strings in Resources */,
+				A5CCAEAA18CB47420051F911 /* greenButton@2x.png in Resources */,
+				A54AD4921CD62A2D00B976C7 /* Images.xcassets in Resources */,
+				A5CCAEA818CB47420051F911 /* blueButtonHighlight@2x.png in Resources */,
+				A5CCAEAC18CB47420051F911 /* greenButtonHighlight@2x.png in Resources */,
+				A5CCAEA218CB47420051F911 /* blackButton@2x.png in Resources */,
+				A5CCAEBB18CB47420051F911 /* whiteButton@2x.png in Resources */,
+				A5CCAEBD18CB47420051F911 /* whiteButtonHighlight@2x.png in Resources */,
+				A5CCAEAF18CB47420051F911 /* greyButton@2xpng in Resources */,
+				A5CCAEB418CB47420051F911 /* orangeButtonHighlight.png in Resources */,
+				A5CCAEAE18CB47420051F911 /* greyButton@2x.png in Resources */,
+				A5CCAEA618CB47420051F911 /* blueButton@2x.png in Resources */,
+				A5CCAEA418CB47420051F911 /* blackButtonHighlight@2x.png in Resources */,
+				A5CCAEA118CB47420051F911 /* blackButton.png in Resources */,
+				A5CCAEC318CB6DDA0051F911 /* ELALOrganizerLicenseCreator72.png in Resources */,
+				A5F0E65A17A7FCE100030DF4 /* Default.png in Resources */,
+				A5CCAEAD18CB47420051F911 /* greyButton.png in Resources */,
+				A5CCAEA718CB47420051F911 /* blueButtonHighlight.png in Resources */,
+				A5CCAEB118CB47420051F911 /* greyButtonHighlight@2x.png in Resources */,
+				A5CCAEB018CB47420051F911 /* greyButtonHighlight.png in Resources */,
+				A5CCAEA518CB47420051F911 /* blueButton.png in Resources */,
+				A5CCAEA318CB47420051F911 /* blackButtonHighlight.png in Resources */,
+				A5F0E65C17A7FCE100030DF4 /* Default@2x.png in Resources */,
+				A5CCAEA918CB47420051F911 /* greenButton.png in Resources */,
+				A5CCAEB518CB47420051F911 /* orangeButtonHighlight@2x.png in Resources */,
+				A5CCAEB618CB47420051F911 /* tanButton.png in Resources */,
+				A5CCAEBC18CB47420051F911 /* whiteButtonHighlight.png in Resources */,
+				A5F0E65E17A7FCE100030DF4 /* Default-568h@2x.png in Resources */,
+				A5F0E66117A7FCE100030DF4 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5F0E64017A7FCE100030DF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5F0E65417A7FCE100030DF4 /* main.m in Sources */,
+				A5CCAE8318CB46F10051F911 /* helpers.m in Sources */,
+				A5F0E65817A7FCE100030DF4 /* AppDelegate.m in Sources */,
+				A5F0E66417A7FCE100030DF4 /* ViewController.m in Sources */,
+				A5F0E66C17A7FDC800030DF4 /* LicenseManager.m in Sources */,
+				A5F0E66F17A7FDEC00030DF4 /* LicenseViewController.m in Sources */,
+				A5F0E67417A7FE4200030DF4 /* NSData+Base64.m in Sources */,
+				A5F0E67517A7FE4200030DF4 /* StringEncryption.m in Sources */,
+				A5F0E67917A7FE8F00030DF4 /* NSDate-Utilities.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A5F0E65017A7FCE100030DF4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5F0E65117A7FCE100030DF4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A5F0E65F17A7FCE100030DF4 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5F0E66017A7FCE100030DF4 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5F0E66517A7FCE100030DF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		A5F0E66617A7FCE100030DF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5F0E66817A7FCE100030DF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				DEVELOPMENT_TEAM = 8M68CMYFST;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ELALOrganizerLicenseCreator/ELALOrganizerLicenseCreator-Prefix.pch";
+				INFOPLIST_FILE = "ELALOrganizerLicenseCreator/ELALOrganizerLicenseCreator-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A5F0E66917A7FCE100030DF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				DEVELOPMENT_TEAM = 8M68CMYFST;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ELALOrganizerLicenseCreator/ELALOrganizerLicenseCreator-Prefix.pch";
+				INFOPLIST_FILE = "ELALOrganizerLicenseCreator/ELALOrganizerLicenseCreator-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5F0E63F17A7FCE100030DF4 /* Build configuration list for PBXProject "ELALOrganizerLicenseCreator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5F0E66517A7FCE100030DF4 /* Debug */,
+				A5F0E66617A7FCE100030DF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5F0E66717A7FCE100030DF4 /* Build configuration list for PBXNativeTarget "ELALOrganizerLicenseCreator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5F0E66817A7FCE100030DF4 /* Debug */,
+				A5F0E66917A7FCE100030DF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5F0E63C17A7FCE100030DF4 /* Project object */;
+}
